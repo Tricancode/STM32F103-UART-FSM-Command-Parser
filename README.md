@@ -24,4 +24,5 @@ The firmware receives asynchronous ASCII command frames via `USART2` interrupt (
 * **Non-blocking Software Timer (`timer.c/.h`):** Driven by `TIM2` hardware interrupt to handle the 3-second ACK timeout and 500 ms LED heartbeat without blocking CPU execution (`HAL_Delay` eliminated).
 
 ## 4. Simulation Demo
-*(Thêm ảnh chụp mạch Proteus + cửa sổ Virtual Terminal của bạn vào đây)*
+
+![Proteus UART Simulation](Images/Simulation.png)
